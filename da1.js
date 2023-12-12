@@ -43,3 +43,17 @@ function hey(){
     console.log("aimee welcome back")
 }
 setTimeout(hey,20);
+
+let count =2000;
+function increment(){
+    count++;
+    console.log(count);
+}
+setInterval(increment,10);
+
+let cout =2000;
+function increment(){
+    cout--;
+    console.log(cout);
+}
+setInterval(increment,10);
